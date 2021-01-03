@@ -3,10 +3,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .counterButton {
-  background: #fff;
+  background: #dadd;
   border-radius: 8px;
   font-size: 2rem;
   padding-right: 2rem;
