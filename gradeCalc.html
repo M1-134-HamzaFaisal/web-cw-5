@@ -43,10 +43,10 @@
 
       <div class="directions">أدخل درجاتك، كل درجة في الحقل الخاص بها</div>
 
-      <input id="Quizes" type="text" />
-      <input id="Midterm" type="text" />
-      <input id="FinalTest" type="text" />
-      <input id="Oral" type="text" />
+      <input id="Quizes" placeholder="quizes"  type="text" /> <br>
+      <input id="Midterm" placeholder="midterm" type="text" /> <br>
+      <input id="FinalTest" placeholder="FinalTest" type="text" /> <br>
+      <input id="Oral"  placeholder="oral" type="text" /> <br>
 
       <input
         id="submitButton"
@@ -55,11 +55,13 @@
         onClick="submit()"
       />
 
-      <p>مجموع درجاتك (بالأرقام) هو</p>
-      <div id="total_grades"></div>
+      <p>مجموع درجاتك (بالأحرف) هو</p>
+      <p id="total_grades"></p>
 
-      <p>درجتك النهائية هي (بالأحرف)</p>
-      <div id="final_grade"></div>
+      <p>درجتك النهائية هي (بالأرقام)</p>
+      <p id="final_grade"></p>
+
+      <script src="./gra.js"></script>
     </div>
   </body>
 </html>
